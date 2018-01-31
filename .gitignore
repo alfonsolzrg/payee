@@ -1,0 +1,16 @@
+*.sqlite
+*.pyc
+logs/*
+!.gitkeep
+bower_components/
+.DS_Store
+Apps/*
+.coveragerc_files/
+.coverage
+payee/settings/local.py
+*.log
+node_modules/
+/static/
+build/
+.tmp
+tmp*
