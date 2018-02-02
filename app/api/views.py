@@ -17,7 +17,6 @@ class InvoiceViewSet(viewsets.ModelViewSet):
     """
     queryset = models.Invoice.objects.all()
     serializer_class = InvoiceSerializer
-    # permission_classes = (permissions.IsAuthenticated,)
 
 
 class CompanyViewSet(viewsets.ModelViewSet):
@@ -28,7 +27,6 @@ class CompanyViewSet(viewsets.ModelViewSet):
     """
     queryset = models.Company.objects.all()
     serializer_class = CompanySerializer
-    # permission_classes = (permissions.IsAuthenticated,)
 
 
 class ProductViewSet(viewsets.ModelViewSet):
@@ -39,7 +37,6 @@ class ProductViewSet(viewsets.ModelViewSet):
     """
     queryset = models.Product.objects.all()
     serializer_class = ProductSerializer
-    # permission_classes = (permissions.IsAuthenticated,)
 
 
 class BusinessEntityViewSet(viewsets.ModelViewSet):
@@ -50,4 +47,3 @@ class BusinessEntityViewSet(viewsets.ModelViewSet):
     """
     queryset = models.BusinessEntity.objects.all()
     serializer_class = BusinessEntitySerializer
-    # permission_classes = (permissions.IsAuthenticated,)
